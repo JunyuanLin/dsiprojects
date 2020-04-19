@@ -19,7 +19,7 @@ Initial analysis of the data shows a rather consistent relationship between some
 
 However, it is not recommended to directly compare mean scores between ACT and SAT, even in similar subjects. Due to the lack of information such as the state student population and whether there are students who took both tests, statistical inferences cannot be made. 
 
-By using the original data and generating a database that tracks the change in each variable over the course of one year, it is observed that states that has larger change in their participation rates also meet with larger change in their mean scores, and, more interestingly, several states saw rather drastic changes in SAT or ACT participation rates. 
+By using the original data and generating a database that tracks the change in each variable over the course of one year, it is observed that states that have larger change in their participation rates also meet with larger change in their mean scores, and, more interestingly, several states saw rather drastic changes in SAT or ACT participation rates. 
 
 By conducting external research on these states, it is found that state education policy change is the main reason behind the change. By obtaining each state's high school education policy, **South Dakota** is the one of the states with low SAT participation rates and has yet to make either SAT or ACT mandatory for its high school students.
 
@@ -30,17 +30,17 @@ In conclusion, there are inverse relationships
 -   between each test's participation rates and its scores and 
 -   also between each test's change in participation rates and its change in scores. 
 
-However, it is more likely that participation rates is the influencing mean scores rather than the other way round. One key takeaway is that states usually prefer one test over another and are likely to focus more on one test only.
+However, it is more likely that participation rates is influencing mean scores rather than the other way round. One key takeaway is that states usually prefer one test over another and are likely to focus more on one test only.
 
 Instead, state education policy is the decisive factor that impacts participation rates. From the examples of Colorado and Illinois, the shift of state wide testing from ACT to SAT as mandated by each state's Department of Education proved to be the decisive factor that drastically raised SAT participation rates.
 
 Amongst the states with the lowest SAT participation rates, **South Dakota** does not make either SAT or ACT mandatory for its high school students. It is recommended that the College Board invest money into South Dakota to advocate adopting SAT for their students and educators. 
 
-Taking Illinois as an example , it switched over from ACT to SAT after evaluating SAT's merits despite also being a midwestern state,  where attitudes tend towards using ACT tests score for college admission. The points that Illinois considered were: the revamped format, SAT's supporting programmes such as the reporting system, the  partnership with Khan Academy providing free test preparation and the SAT School day allows lower income families to gain access to colleges. 
+Taking Illinois as an example , it switched over from ACT to SAT after evaluating SAT's merits despite also being a midwestern state,  where attitudes tend towards using ACT tests score for college admission. The points that Illinois considered were: the revamped format, SAT's supporting programmes such as the reporting system, the  partnership with Khan Academy providing free test preparation and the SAT School day that allows lower income families to gain access to colleges. 
 
- This advocacy can also be extended to South Dakota colleges. As the main driving reason for these tests is for college admission, convincing colleges in this region to be receptive of considering SAT scores will also be helpful.
+ This advocacy can also be extended to South Dakota colleges. As the main driving reason for these tests is college admission, convincing colleges in this region to be receptive of considering SAT scores will also be helpful.
 
-A potential threat is the test-optional movement. Colleges are increasingly performing admission evaluation without SAT or ACT, claiming that these scores do not necessarily accurately predict student success. Therefore, more studies need to be conducted to verify these claims and strategise how to identify areas which can bring value to colleges that uses SAT scores for admission. This will ensure relevancy and keep SAT participation rates high.
+A potential threat is the test-optional movement. Colleges are increasingly performing admission evaluation without SAT nor ACT, claiming that these scores do not necessarily accurately predict student success. Therefore, more studies need to be conducted to verify these claims and strategise how to identify areas which can bring value to colleges that uses SAT scores for admission. This will ensure relevancy and keep SAT participation rates high.
 
 
 
@@ -49,35 +49,35 @@ A potential threat is the test-optional movement. Colleges are increasingly perf
 |Feature|Type|Dataset|Description|
 |---|---|---|---|
 |state|object|All datasets|The state in USA| 
-|sat17_partn|float|SAT 2017|The SAT participation rate (units percent to one decimal place 5.0 means 5.0%)|
+|sat17_partn|float|SAT 2017|The participation rate (units percent to one decimal place 5.0 means 5.0%)|
 |sat17_erw|float|SAT 2017|The state average Evidence Based Reading and Writing score|
 |sat17_math|float|SAT 2017|The state average Math score|
 |sat17_total|float|SAT 2017|The state average Total score|
-|act17_partn|float|ACT 2017|The ACT participation rate (units percent to one decimal place 5.0 means 5.0%)|
+|act17_partn|float|ACT 2017|The participation rate (units percent to one decimal place 5.0 means 5.0%)|
 |act17_eng|float|ACT 2017|The state average English score|
 |act17_math|float|ACT 2017|The state average Math score|
 |act17_rdg|float|ACT 2017|The state average Reading score|
 |act17_sci|float|ACT 2017|The state average Science score|
 |act17_comp|float|ACT 2017|The state average Composite score|
-|sat18_partn|float|SAT 2018|The SAT participation rate (units percent to one decimal place 5.0 means 5.0%)|
+|sat18_partn|float|SAT 2018|The participation rate (units percent to one decimal place 5.0 means 5.0%)|
 |sat18_erw|float|SAT 2018|The state average Evidence Based Reading and Writing score|
 |sat18_math|float|SAT 2018|The state average Math score|
 |sat18_total|float|SAT 2018|The state average Total score|
-|act18_partn|float|ACT 2018|The ACT participation rate (units percent to one decimal place 5.0 means 5.0%)|
+|act18_partn|float|ACT 2018|The participation rate (units percent to one decimal place 5.0 means 5.0%)|
 |act18_eng|float|ACT 2018|The state average English score|
 |act18_math|float|ACT 2018|The state average Math score|
 |act18_rdg|float|ACT 2018|The state average Reading score|
 |act18_sci|float|ACT 2018|The state average Science score|
 |act18_comp|float|ACT 2018|The state average Composite score|
-|sat_partn_change|float|Year-on-year|Change in SAT participation rates between 2017 and 2018 (units percent to one decimal place 5.0 means 5.0%)|
-|sat_erw_change_pct|float|Year-on-year|Percentage change in SAT Evidence Based Reading and Writing score between 2017 and 2018 (units percent to one decimal place 5.0 means 5.0%)|
-|sat_math_change_pct|float|Year-on-year|Percentage change in SAT Math score between 2017 and 2018 (units percent to one decimal place 5.0 means 5.0%)|
-|sat_total_change_pct|float|Year-on-year|Percentage change in SAT Total score between 2017 and 2018 (units percent to one decimal place 5.0 means 5.0%)
-|act_partn_change|float|Year-on-year|Change in ACT participation rates between 2017 and 2018 (units percent to one decimal place 5.0 means 5.0%)|
-|act_eng_change_pct|float|Year-on-year|Percentage change in ACT English score between 2017 and 2018 (units percent to one decimal place 5.0 means 5.0%)
-|act_math_change_pct|float|Year-on-year|Percentage change in ACT Math score between 2017 and 2018 (units percent to one decimal place 5.0 means 5.0%)
-|act_sci_change_pct|float|Year-on-year|Percentage change in ACT Science score between 2017 and 2018 (units percent to one decimal place 5.0 means 5.0%)
-|act_comp_change_pct|float|Year-on-year|Percentage change in ACT Composite score between 2017 and 2018 (units percent to one decimal place 5.0 means 5.0%)
+|sat_partn_change|float|SAT 2017-2018|Change in  participation rates between 2017 and 2018 (units percent to one decimal place 5.0 means 5.0%)|
+|sat_erw_change_pct|float|SAT 2017-2018|Percentage change in Evidence Based Reading and Writing score between 2017 and 2018 (units percent to one decimal place 5.0 means 5.0%)|
+|sat_math_change_pct|float|SAT 2017-2018|Percentage change in Math score between 2017 and 2018 (units percent to one decimal place 5.0 means 5.0%)|
+|sat_total_change_pct|float|SAT 2017-2018|Percentage change in Total score between 2017 and 2018 (units percent to one decimal place 5.0 means 5.0%)
+|act_partn_change|float|ACT 2017-2018|Change in participation rates between 2017 and 2018 (units percent to one decimal place 5.0 means 5.0%)|
+|act_eng_change_pct|float|ACT 2017-2018|Percentage change in English score between 2017 and 2018 (units percent to one decimal place 5.0 means 5.0%)
+|act_math_change_pct|float|ACT 2017-2018|Percentage change in Math score between 2017 and 2018 (units percent to one decimal place 5.0 means 5.0%)
+|act_sci_change_pct|float|ACT 2017-2018r|Percentage change in Science score between 2017 and 2018 (units percent to one decimal place 5.0 means 5.0%)
+|act_comp_change_pct|float|ACT 2017-2018|Percentage change in Composite score between 2017 and 2018 (units percent to one decimal place 5.0 means 5.0%)
 |sat_reqd|bool|2018|Whether SAT is a mandatory requirement in the state as of 2018. True : Yes, False : No
 |act_reqd|bool|2018|Whether ACT is a mandatory requirement in the state as of 2018. True : Yes, False : No
 
