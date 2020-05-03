@@ -1,177 +1,146 @@
-# Project 2 - Ames Housing Data and Kaggle Challenge
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 2: Kaggle Challenge - Ames Iowa Housing Data Set
 
-Welcome to Project 2! It's time to start modeling.
+##### by: Lin Junyuan, SG-DSI-14
 
-**Primary Learning Objectives:**
-1. Creating and iteratively refining a regression model
-2. Using [Kaggle](https://www.kaggle.com/) to practice the modeling process
-3. Providing business insights through reporting and presentation.
+## Introduction
+SAT introduced a new format in 2016. Being an employee of the College Board, my role is to track statewide participation rates and score results. Using the data collected, the objective is to recommend where to invest money to improve SAT participation rates.
 
-You are tasked with creating a regression model based on the Ames Housing Dataset. This model will predict the price of a house at sale.
+## Problem Statement
 
-The Ames Housing Dataset is an exceptionally detailed and robust dataset with over 70 columns of different features relating to houses.
+What is the best regression model, with an **upper limit of 30 variables**, that can predict house sale price in Ames Iowa to a **RMSE of less than $40,000** and what are its **top 3 influencing factors**.
 
-Secondly, we are hosting a competition on Kaggle to give you the opportunity to practice the following skills:
+## Executive Summary
 
-- Refining models over time
-- Use of train-test split, cross-validation, and data with unknown values for the target to simulate the modeling process
-- The use of Kaggle as a place to practice data science
+The objective of this project is to create the best regression model to predict housing sale price in Ames, with the goals as stated in the problem statement. The data provided are one set of training data, one set of test data and one set of submission example.
 
-As always, you will be submitting a technical report and a presentation. **You may find that the best model for Kaggle is not the best model to address your data science problem.**
+Within the training data and test data are 80 variables of different types and datatypes. The training data has one extra column of `Saleprice` for training purposes. Both data require data cleaning and imputation for missing data.
 
-## Set-up
+After a careful process of selection and modelling, the **lasso** model is found to be the most suitable model which fits our objectives. The top 3 influencing factors are **Overall material and finish quality** (overall_qual), **Above grade (ground) living area in square feet** (gr_liv_area) and **Size of garage in square feet** (garage_area).
 
-Before you begin working on this project, please do the following:
+ ## Conclusions and Recommendations
 
-1. Sign up for an account on [Kaggle](https://www.kaggle.com/)
-2. **IMPORTANT**: Click this link ([Regression Challenge Sign Up](https://www.kaggle.com/t/cf68f4a276f44b59a3c6c843dbf9ed1e)) to **join** the competition (otherwise you will not be able to make submissions!)
-3. Review the material on the [DSI-US-6 Regression Challenge](https://www.kaggle.com/c/dsi-us-6-project-2-regression-challenge)
-4. Review the [data description](http://jse.amstat.org/v19n3/decock/DataDocumentation.txt).
+Through this exercise, it can be observed that though there are many variables available, a number of them are found to be collinear and quite a significant amount could not meet our selection criteria. On the other hand, this helps us to be able to narrow down in order to meet our objective.
 
-## The Modeling Process
+In conclusion, the lasso model was able to fulfil the criteria set out in the problem statement. Its number of predictors are 26, which is less than 30. The Kaggle submission results indicate that the RMSE target is met.
 
-1. The train dataset has all of the columns that you will need to generate and refine your models. The test dataset has all of those columns except for the target that you are trying to predict in your Regression model.
-2. Generate your regression model using the training data. We expect that within this process, you'll be making use of:
-    - train-test split
-    - cross-validation / grid searching for hyperparameters
-    - strong exploratory data analysis to question correlation and relationship across predictive variables
-    - code that reproducibly and consistently applies feature transformation (such as the preprocessing library)
-3. Predict the values for your target column in the test dataset and submit your predictions to Kaggle to see how your model does against unknown data.
-    - **Note**: Kaggle expects to see your submissions in a specific format. Check the challenge's page to make sure you are formatting your CSVs correctly!
-    - **You are limited to models you've learned in class**. In other words, you cannot use XGBoost, Neural Networks or any other advanced model for this project.
-4. Evaluate your models!
-    - consider your evaluation metrics
-    - consider your baseline score
-    - how can your model be used for inference?
-    - why do you believe your model will generalize to new data?
+The top three predictors are:
 
-## Submission
+1. Overall material and finish quality (overall_qual)
+2. Above grade (ground) living area in square feet (gr_liv_area)
+3. Size of garage in square feet (garage_area) are the top three influencing factors
 
-**Materials must be submitted by the beginning of class on May 4th.**
+Therefore, homeowners seeking to increase their house value can improve its overall quality, expand the above ground living area or the size of the garage.
 
-Your technical report will be hosted on Github Enterprise. Make sure it includes:
+On the other hand, the predictors with the top three negative variables can also provide interesting insight. First of all, they are all drawn from nominal variables, 1. land_contour: Banked, which means that there is a `Quick and significant rise from street grade to building`, 2. garage_type:2Types, which means there is `More than one type of garage` and 3. ms_zoning_:RM, which means its zoning classification is `Residential Medium Density`. Homebuyers seeking lower priced units or people seeking to resell their house should take these factors into consideration.
 
-- A README.md (that isn't this file)
-- Jupyter notebook(s) with your analysis and models (renamed to describe your project)
-- At least one successful prediction submission on [DSI-US-6 Regression Challenge](https://www.kaggle.com/c/dsi-us-6-project-2-regression-challenge) --  you should see your name in the "[Leaderboard](https://www.kaggle.com/c/dsi-us-6-project-2-regression-challenge/leaderboard)" tab.
-- Data files
-- Presentation slides
-- Any other necessary files (images, etc.)
 
-**Check with your local instructor for how they would like you to submit your repo for review.**
 
----
+## Data dictionary
 
-## Presentation Structure
+|     Column      |  Type  | Description                                                  |
+| :-------------: | :----: | :----------------------------------------------------------- |
+|       id        |  int   | **ID**                                                       |
+|       pid       | object | **Property ID Number**                                       |
+|   ms_subclass   | object | **The building class** <br> 20 : 1-STORY 1946 & NEWER ALL STYLES <br>30 : 1-STORY 1945 & OLDER<br>40 : 1-STORY W/FINISHED ATTIC ALL AGES<br>45 : 1-1/2 STORY - UNFINISHED ALL AGES<br>50 : 1-1/2 STORY FINISHED ALL AGES<br>60 : 2-STORY 1946 & NEWER<br>70 : 2-STORY 1945 & OLDER<br>75 : 2-1/2 STORY ALL AGES<br>80 : SPLIT OR MULTI-LEVEL<br>85 : SPLIT FOYER<br>90 : DUPLEX - ALL STYLES AND AGES<br>120 : 1-STORY PUD (Planned Unit Development) - 1946 & NEWER<br>150 : 1-1/2 STORY PUD - ALL AGES<br>160 : 2-STORY PUD - 1946 & NEWER<br>180 : PUD - MULTILEVEL - INCL SPLIT LEV/FOYER<br>190 : 2 FAMILY CONVERSION - ALL STYLES AND AGES |
+|    ms_zoning    | object | **Identifies the general zoning classification of the sale.**<br>A : Agriculture<br>C : Commercial<br>FV : Floating Village Residential<br>I : Industrial<br>RH : Residential High Density<br>RL : Residential Low Density<br>RP : Residential Low Density Park<br>RM : Residential Medium Density |
+|  lot_frontage   | float  | **Linear feet of street connected to property**              |
+|    lot_area     |  int   | **Lot size in square feet**                                  |
+|     street      | object | **Type of road access to property**<br>Grvl : Gravel<br>Pave : Paved |
+|      alley      | object | **Type of alley access to property**<br>Grvl : Gravel<br>Pave : Paved<br>NA : No alley access |
+|    lot_shape    |  int   | **LotShape: General shape of property**<br>3 (Reg) : Regular<br>2 (IR1) : Slightly irregular<br>1 (IR2) : Moderately Irregular<br>0 (IR3) : Irregular |
+|  land_contour   | object | **LandContour: Flatness of the property**<br>Lvl : Near Flat/Level<br>Bnk : Banked - Quick and significant rise from street grade to building<br>HLS : Hillside - Significant slope from side to side<br>Low Depression |
+|    utilities    |  int   | **Type of utilities available**<br>3 (AllPub) : All public Utilities (E,G,W,& S)<br>2 ( NoSewr) : Electricity, Gas, and Water (Septic Tank)<br>1 (NoSeWa) : Electricity and Gas Only<br>0 (ELO) : Electricity only |
+|   lot_config    | object | **Lot configuration**<br>Inside : Inside lot<br>Corner : Corner lot<br>CulDSac : Cul-de-sac<br>FR2 : Frontage on 2 sides of property<br>FR3 : Frontage on 3 sides of property |
+|   land_slope    |  int   | **Slope of property**<br>2 (Gtl) : Gentle slope<br>1 (Mod) : Moderate Slope<br>0 (Sev) : Severe Slope |
+|  neighborhood   | object | **Physical locations within Ames city limits**<br>Blmngtn : Bloomington Heights<br>Blueste : Bluestem<br>BrDale : Briardale<br>BrkSide : Brookside<br>ClearCr : Clear Creek<br>CollgCr : College Creek<br>Crawfor : Crawford<br>Edwards : Edwards<br>Gilbert : Gilbert<br>IDOTRR : Iowa DOT and Rail Road<br>Meadow : Meadow Village<br>Mitchel : Mitchell<br>Names : North Ames<br>NoRidge : Northridge<br>NPkVill : Northpark Villa<br>NridgHt : Northridge Heights<br>NWAmes : Northwest Ames<br>OldTown : Old Town<br>SWISU : South & West of Iowa State University<br>Sawyer : Sawyer<br>SawyerW : Sawyer West<br>Somerst : Somerset<br>StoneBr : Stone Brook<br>Timber : Timberland<br>Veenker : Veenker |
+|   condition_1   | object | **Proximity to main road or railroad**<br>Artery : Adjacent to arterial street<br>Feedr : Adjacent to feeder street<br>Norm : Normal<br>RRNn : Within 200' of North-South Railroad<br>RRAn : Adjacent to North-South Railroad<br>PosN : Near positive off-site feature--park, greenbelt, etc.<br>PosA : Adjacent to postive off-site feature<br>RRNe : Within 200' of East-West Railroad<br>RRAe : Adjacent to East-West Railroad |
+|   condition_2   | object | **Proximity to main road or railroad (if a second is present)**<br>Artery : Adjacent to arterial street<br>Feedr : Adjacent to feeder street<br>Norm : Normal<br>RRNn : Within 200' of North-South Railroad<br>RRAn : Adjacent to North-South Railroad<br>PosN : Near positive off-site feature--park, greenbelt, etc.<br>PosA : Adjacent to postive off-site feature<br>RRNe : Within 200' of East-West Railroad<br>RRAe : Adjacent to East-West Railroad |
+|    bldg_type    | object | **Type of dwelling**<br>1Fam : Single-family Detached<br>2FmCon : Two-family Conversion; originally built as one-family dwelling<br>Duplx : Duplex<br>TwnhsE : Townhouse End Unit<br>TwnhsI : Townhouse Inside Unit |
+|   house_style   | object | **Style of dwelling**<br>1Story : One story<br>1.5Fin : One and one-half story: 2nd level finished<br>1.5Unf : One and one-half story: 2nd level unfinished<br>2Story : Two story<br>2.5Fin : Two and one-half story: 2nd level finished<br>2.5Unf : Two and one-half story: 2nd level unfinished<br>SFoyer : Split Foyer<br>SLvl : Split Level |
+|  overall_qual   |  int   | **Overall material and finish quality**<br>10 : Very Excellent<br>9 : Excellent<br>8 : Very Good<br>7 : Good<br>6 : Above Average<br>5 : Average<br>4 : Below Average<br>3 : Fair<br>2 : Poor<br>1 : Very Poor |
+|  overall_cond   |  int   | **Overall condition rating**<br>10 : Very Excellent<br>9 : Excellent<br>8 : Very Good<br>7 : Good<br>6 : Above Average<br>5 : Average<br>4 : Below Average<br>3 : Fair<br>2 : Poor<br>1 : Very Poor |
+|   year_built    |  int   | **Original construction date**                               |
+| year_remod/add  |  int   | **Remodel date (same as construction date if no remodeling or additions)** |
+|   roof_style    | object | **Type of roof**<br>Flat : Flat<br>Gable : Gable<br>Gambrel : Gabrel (Barn)<br>Hip : Hip<br>Mansard : Mansard<br>Shed : Shed |
+|    roof_matl    | object | **Roof material**<br>ClyTile : Clay or Tile<br>CompShg : Standard (Composite) Shingle<br>Membran : Membrane<br>Metal : Metal<br>Roll : Roll<br>Tar&Grv : Gravel & Tar<br>WdShake : Wood Shakes<br>WdShngl : Wood Shingles |
+|  exterior_1st   | object | **Exterior covering on house**<br>AsbShng : Asbestos Shingles<br>AsphShn : Asphalt Shingles<br>BrkComm : Brick Common<br>BrkFace : Brick Face<br>CBlock : Cinder Block<br>CemntBd : Cement Board<br>HdBoard : Hard Board<br>ImStucc : Imitation Stucco<br>MetalSd : Metal Siding<br>Other : Other<br>Plywood : Plywood<br>PreCast : PreCast<br>Stone : Stone<br>Stucco : Stucco<br>VinylSd : Vinyl Siding<br>Wd Sdng : Wood Siding<br>WdShing : Wood Shingles |
+|  exterior_2nd   | object | **Exterior covering on house (if more than one material)**<br>AsbShng : Asbestos Shingles<br>AsphShn : Asphalt Shingles<br>BrkComm : Brick Common<br>BrkFace : Brick Face<br>CBlock : Cinder Block<br>CemntBd : Cement Board<br>HdBoard : Hard Board<br>ImStucc : Imitation Stucco<br>MetalSd : Metal Siding<br>Other : Other<br>Plywood : Plywood<br>PreCast : PreCast<br>Stone : Stone<br>Stucco : Stucco<br>VinylSd : Vinyl Siding<br>Wd Sdng : Wood Siding<br>WdShing : Wood Shingles |
+|  mas_vnr_type   | object | **Masonry veneer type**<br>BrkCmn : Brick Common<br>BrkFace : Brick Face<br>Block : Cinder Block<br>None : None<br>Stone : Stone |
+|  mas_vnr_area   | float  | **Masonry veneer area in square feet**                       |
+|   exter_qual    |  int   | **Exterior material quality**<br>4 (Ex) : Excellent<br>3 (Gd) : Good<br>2 (TA) : Average/Typical<br>1 (Fa) : Fair<br>0 (Po) : Poor |
+|   exter_cond    |  int   | **Present condition of the material on the exterior**<br>4 (Ex) : Excellent<br>3 (Gd) : Good<br>2 (TA) : Average/Typical<br>1 (Fa) : Fair<br>0 (Po) : Poor |
+|   foundation    | object | **Type of foundation**<br>BrkTil : Brick & Tile<br>CBlock : Cinder Block<br>PConc : Poured Contrete<br>Slab : Slab<br>Stone : Stone<br>Wood : Wood |
+|    bsmt_qual    | float  | **Height of the basement**<br>5 (Ex) : Excellent (100+ inches)<br>4 (Gd) : Good (90-99 inches)<br>3 (TA) : Typical (80-89 inches)<br>2 (Fa) : Fair (70-79 inches)<br>1 (Po) : Poor (<70 inches)<br>0 (NA) : No Basement |
+|    bsmt_cond    | float  | General condition of the basement<br>5 (Ex) : Excellent<br>4 (Gd) : Good<br>3 (TA) : Typical - slight dampness allowed<br>2 (Fa) : Fair - dampness or some cracking or settling<br>1 (Po) : Poor - Severe cracking, settling, or wetness<br>0 (NA) : No Basement |
+|  bsmt_exposure  | float  | **Walkout or garden level basement walls**<br>4 (Gd) : Good Exposure<br>3 (Av) : Average Exposure (split levels or foyers typically score average or above)<br>2 (Mn) : Mimimum Exposure<br>1 (No) : No Exposure<br>0 (NA) : No Basement |
+| bsmtfin_type_1  | float  | **Quality of basement finished area**<br>6 (GLQ) : Good Living Quarters<br>5 (ALQ) : Average Living Quarters<br>4 (BLQ) : Below Average Living Quarters<br>3 (Rec) : Average Rec Room<br>2 (LwQ) : Low Quality<br>1 (Unf) : Unfinshed<br>0 (NA) : No Basement |
+|  bsmtfin_sf_1   | float  | **Type 1 finished square feet**                              |
+| bsmtfin_type_2  | float  | **Quality of second finished area (if present)**<br>6 (GLQ) : Good Living Quarters<br>5 (ALQ) : Average Living Quarters<br>4 (BLQ) : Below Average Living Quarters<br>3 (Rec) : Average Rec Room<br>2 (LwQ) : Low Quality<br>1 (Unf) : Unfinshed<br>0 (NA) : No Basement |
+|  bsmtfin_sf_2   | float  | **Type 2 finished square feet**                              |
+|   bsmt_unf_sf   | float  | **Unfinished square feet of basement area**                  |
+|  total_bsmt_sf  | float  | **Total square feet of basement area**                       |
+|     heating     | object | **Type of heating**<br>Floor : Floor Furnace<br>GasA : Gas forced warm air furnace<br>GasW : Gas hot water or steam heat<br>Grav : Gravity furnace<br>OthW : Hot water or steam heat other than gas<br>Wall : Wall furnace |
+|   heating_qc    |  int   | **Heating quality and condition**<br>4 (Ex) : Excellent<br>3 (Gd) : Good<br>2 (TA) : Average/Typical<br>1 (Fa) : Fair<br>0 (Po) : Poor |
+|   central_air   |  int   | **Central air conditioning**<br>0 (N) : No<br>1 (Y) : Yes    |
+|   electrical    |  int   | **Electrical system**<br>4  (SBrkr) : Standard Circuit Breakers & Romex<br>3 (FuseA) : Fuse Box over 60 AMP and all Romex wiring (Average)<br>2 (FuseF) : 60 AMP Fuse Box and mostly Romex wiring (Fair)<br>1 (FuseP) : 60 AMP Fuse Box and mostly knob & tube wiring (poor)<br>0 (Mix) : Mixed |
+|   1st_flr_sf    |  int   | **First Floor square feet**                                  |
+|   2nd_flr_sf    |  int   | **Second floor square feet**                                 |
+| low_qual_fin_sf |  int   | **Low quality finished square feet (all floors)**            |
+|   gr_liv_area   |  int   | **Above grade (ground) living area square feet**             |
+| bsmt_full_bath  | float  | **Basement full bathrooms**                                  |
+| bsmt_half_bath  | float  | **Basement half bathrooms**                                  |
+|    full_bath    |  int   | **Full bathrooms above grade**                               |
+|    half_bath    |  int   | **Half baths above grade**                                   |
+|  bedroom_abvgr  |  int   | **Number of bedrooms above basement level**                  |
+|  kitchen_abvgr  |  int   | **Number of kitchens**                                       |
+|  kitchen_qual   |  int   | **Kitchen quality**<br>4 (Ex) : Excellent<br>3 (Gd) : Good<br>2 (TA) : Typical/Average<br>1 (Fa) : Fair<br>0 (Po) : Poor |
+|  totrms_abvgrd  |  int   | **Total rooms above grade (does not include bathrooms)**     |
+|   functional    |  int   | **Home functionality rating**<br>7 (Typ) : Typical Functionality<br>6 (Min1) : Minor Deductions 1<br>5 (Min2) : Minor Deductions 2<br>4 (Mod) : Moderate Deductions<br>3 (Maj1) : Major Deductions 1<br>2 (Maj2) : Major Deductions 2<br>1 (Sev) : Severely Damaged<br>0 (Sal) : Salvage only |
+|   fireplaces    |  int   | **Number of fireplaces**                                     |
+|  fireplace_qu   |  int   | **Fireplace quality**<br>5 (Ex) : Excellent - Exceptional Masonry Fireplace<br>4 (Gd) : Good - Masonry Fireplace in main level<br>3 (TA) : Average - Prefabricated Fireplace in main living area or Masonry Fireplace in basement<br>2 (Fa) : Fair - Prefabricated Fireplace in basement<br>1 (Po) : Poor - Ben Franklin Stove<br>0 (NA) : No Fireplace |
+|   garage_type   | object | **Garage location**<br>2Types : More than one type of garage<br>Attchd : Attached to home<br>Basment : Basement Garage<br>BuiltIn : Built-In (Garage part of house - typically has room above garage)<br>CarPort : Car Port<br>Detchd : Detached from home<br>NA : No Garage |
+|  garage_yr_blt  | float  | **Year garage was built**                                    |
+|  garage_finish  | float  | **Interior finish of the garage**<br>3 (Fin) : Finished<br>2 (RFn) : Rough Finished<br>1 (Unf) : Unfinished<br>0 (NA) : No Garage |
+|   garage_cars   | float  | **Size of garage in car capacity**                           |
+|   garage_area   | float  | **Size of garage in square feet**                            |
+|   garage_qual   | float  | **Garage quality**<br>5 (Ex) : Excellent<br>4 (Gd) : Good<br>3 (TA) : Typical/Average<br>2 (Fa) : Fair<br>1 (Po) : Poor<br>0 (NA) : No Garage |
+|   garage_cond   | float  | **Garage condition**<br>5 (Ex) : Excellent<br>4 (Gd) : Good<br>3 (TA) : Typical/Average<br>2 (Fa) : Fair<br>1 (Po) : Poor<br>0 (NA) : No Garage |
+|   paved_drive   |  int   | **Paved driveway**<br>2 (Y) : Paved<br>1 (P) : Partial Pavement<br>0 (N) : Dirt/Gravel |
+|  wood_deck_sf   |  int   | **Wood deck area in square feet**                            |
+|  open_porch_sf  |  int   | **Open porch area in square feet**                           |
+| enclosed_porch  |  int   | **Enclosed porch area in square feet**                       |
+|   3ssn_porch    |  int   | **Three season porch area in square feet**                   |
+|  screen_porch   |  int   | **Screen porch area in square feet**                         |
+|    pool_area    |  int   | **Pool area in square feet**                                 |
+|     pool_qc     |  int   | **Pool quality**<br>4  (Ex) : Excellent<br>3 (Gd) : Good<br>2 (TA) : Average/Typical<br>1 (Fa) : Fair<br>0 (NA) : No Pool |
+|      fence      |  int   | **Fence quality**<br>4 (GdPrv) : Good Privacy<br>3 (MnPrv) : Minimum Privacy<br>2 (GdWo) : Good Wood<br>1 (MnWw) : Minimum Wood/Wire<br>0 (NA) : No Fence |
+|  misc_feature   | object | **Miscellaneous feature not covered in other categories**<br>Elev : Elevator<br>Gar2 : 2nd Garage (if not described in garage section)<br>Othr : Other<br>Shed : Shed (over 100 SF)<br>TenC : Tennis Court<br>NA : None |
+|    misc_val     |  int   | **$Value of miscellaneous feature**                          |
+|     mo_sold     |  int   | **Month Sold**                                               |
+|     yr_sold     |  int   | **Year Sold**                                                |
+|    sale_type    | object | **Type of sale**<br>WD : Warranty Deed - Conventional<br>CWD : Warranty Deed - Cash<br>VWD : Warranty Deed - VA Loan<br>New : Home just constructed and sold<br>COD : Court Officer Deed/Estate<br>Con : Contract 15\% Down payment regular terms<br>ConLw : Contract Low Down payment and low interest<br>ConLI : Contract Low Interest<br>ConLD : Contract Low Down<br>Oth : Other |
+|    saleprice    |  int   | **Property's sale price in dollars**                         |
 
-- **Must be within time limit established by local instructor.**
-- Use Google Slides or some other visual aid (Keynote, Powerpoint, etc).
-- Consider the audience. **Check with your local instructor for direction**.
-- Start with the **data science problem**.
-- Use visuals that are appropriately scaled and interpretable.
-- Talk about your procedure/methodology (high level).
-- Talk about your primary findings.
-- Make sure you provide **clear recommendations** that follow logically from your analyses and narrative and answer your data science problem.
+## File Navigation
+```
+Project_2_Reg_Challenge
+|__ code
+|   |__ regression_challenge_notebook.ipynb   
+|	|__ kaggle_result.png
+|__ datasets
+|   |__ train.csv
+|   |__ test.csv
+|   |__ sample_sub_reg.csv
+|   |__ submission.csv
+|__ ames_reg_challenge.pdf
+|__ README.md
 
-Be sure to rehearse and time your presentation before class.
+```
 
----
+## Data sources
 
-## Rubric
-Your local instructor will evaluate your project (for the most part) using the following criteria.  You should make sure that you consider and/or follow most if not all of the considerations/recommendations outlined below **while** working through your project.
+### Provided
 
-**Scores will be out of 27 points based on the 9 items in the rubric.** <br>
-*3 points per section*<br>
+As part of the project, [train.csv](./datasets/test.csv), [test.csv](./datasets/test.csv) and [sample_sub_reg.csv](./datasets/sample_sub_reg.csv) files were provided. 
 
-| Score | Interpretation |
-| --- | --- |
-| **0** | *Project fails to meet the minimum requirements for this item.* |
-| **1** | *Project meets the minimum requirements for this item, but falls significantly short of portfolio-ready expectations.* |
-| **2** | *Project exceeds the minimum requirements for this item, but falls short of portfolio-ready expectations.* |
-| **3** | *Project meets or exceeds portfolio-ready expectations; demonstrates a thorough understanding of every outlined consideration.* |
-
-### The Data Science Process
-
-**Problem Statement**
-- Is it clear what the student plans to do?
-- What type of model will be developed?
-- How will success be evaluated?
-- Is the scope of the project appropriate?
-- Is it clear who cares about this or why this is important to investigate?
-- Does the student consider the audience and the primary and secondary stakeholders?
-
-**Data Cleaning and EDA**
-- Are missing values imputed appropriately?
-- Are distributions examined and described?
-- Are outliers identified and addressed?
-- Are appropriate summary statistics provided?
-- Are steps taken during data cleaning and EDA framed appropriately?
-- Does the student address whether or not they are likely to be able to answer their problem statement with the provided data given what they've discovered during EDA?
-
-**Preprocessing and Modeling**
-- Are categorical variables one-hot encoded?
-- Does the student investigate or manufacture features with linear relationships to the target?
-- Have the data been scaled appropriately?
-- Does the student properly split and/or sample the data for validation/training purposes?
-- Does the student utilize feature selection to remove noisy or multi-collinear features?
-- Does the student test and evaluate a variety of models to identify a production algorithm (**AT MINIMUM:** linear regression, lasso, and ridge)?
-- Does the student defend their choice of production model relevant to the data at hand and the problem?
-- Does the student explain how the model works and evaluate its performance successes/downfalls?
-
-**Evaluation and Conceptual Understanding**
-- Does the student accurately identify and explain the baseline score?
-- Does the student select and use metrics relevant to the problem objective?
-- Is more than one metric utilized in order to better assess performance?
-- Does the student interpret the results of their model for purposes of inference?
-- Is domain knowledge demonstrated when interpreting results?
-- Does the student provide appropriate interpretation with regards to descriptive and inferential statistics?
-
-**Conclusion and Recommendations**
-- Does the student provide appropriate context to connect individual steps back to the overall project?
-- Is it clear how the final recommendations were reached?
-- Are the conclusions/recommendations clearly stated?
-- Does the conclusion answer the original problem statement?
-- Does the student address how findings of this research can be applied for the benefit of stakeholders?
-- Are future steps to move the project forward identified?
-
-### Organization and Professionalism
-
-**Project Organization**
-- Are modules imported correctly (using appropriate aliases)?
-- Are data imported/saved using relative paths?
-- Does the README provide a good executive summary of the project?
-- Is markdown formatting used appropriately to structure notebooks?
-- Are there an appropriate amount of comments to support the code?
-- Are files & directories organized correctly?
-- Are there unnecessary files included?
-- Do files and directories have well-structured, appropriate, consistent names?
-
-**Visualizations**
-- Are sufficient visualizations provided?
-- Do plots accurately demonstrate valid relationships?
-- Are plots labeled properly?
-- Are plots interpreted appropriately?
-- Are plots formatted and scaled appropriately for inclusion in a notebook-based technical report?
-
-**Python Syntax and Control Flow**
-- Is care taken to write human readable code?
-- Is the code syntactically correct (no runtime errors)?
-- Does the code generate desired results (logically correct)?
-- Does the code follows general best practices and style guidelines?
-- Are Pandas functions used appropriately?
-- Are `sklearn` methods used appropriately?
-
-**Presentation**
-- Is the problem statement clearly presented?
-- Does a strong narrative run through the presentation building toward a final conclusion?
-- Are the conclusions/recommendations clearly stated?
-- Is the level of technicality appropriate for the intended audience?
-- Is the student substantially over or under time?
-- Does the student appropriately pace their presentation?
-- Does the student deliver their message with clarity and volume?
-- Are appropriate visualizations generated for the intended audience?
-- Are visualizations necessary and useful for supporting conclusions/explaining findings?
-
-### REMEMBER:
-
-This is a learning environment and you are encouraged to try new things, even if they end up failing. While this rubric outlines what we look for in a _good_ project, it is up to you to go above and beyond to create a _great_ project. **Learn from your failures and you'll be prepared to succeed in the workforce**.
+These sources of these data were pulled from the [Kaggle Challenge website](https://www.kaggle.com/c/dsi-us-6-project-2-regression-challenge/data)
