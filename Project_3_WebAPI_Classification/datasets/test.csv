@@ -1,0 +1,354 @@
+subreddit,name,title,selftext
+science,t3_gl1nvf,"U.S. adults look to scientific organizations like the Centers for Disease Control and Prevention, rather than their president, to lead the country’s response to the coronavirus pandemic",
+science,t3_gl8jwg,"Blind people who were sighted before becoming blind, could ‘see’ letters after a precise pattern of electrical pulses was delivered to a part of their brains involved in visual processing.",
+science,t3_gl90l5,Shrinking Ice Sheets Lifted Global Sea Level 14 Millimeters,
+science,t3_gkk5l9,Chest X-rays performed on young &amp; middle-aged adults with COVID-19 when they arrive at the emergency room can help doctors predict who is at higher risk of severe illness &amp; intubation. This is the first study looking at how chest X-rays can be used to measure COVID-19 severity.,
+science,t3_gl9kou,Quantum Entanglement of 15 Trillion Atoms at 450 Kelvin With “Surprising Results”,
+science,t3_gkzj6a,"New study confirms that paced breathing can reduce pain. Pain relief benefits were especially strong when breathing was slow, and when exhalation was longer than inhalation.",
+science,t3_gke93l,New research by Rutgers scientists reaffirms that modern sea-level rise is linked to human activities and not to changes in Earth's orbit.,
+science,t3_gl8y74,"Bizarre new species discovered... on Twitter. The newly discovered parasitic fungus has now been given its official Latin name, Troglomyces twitteri.",
+science,t3_glao2n,Reviving the US CDC,
+science,t3_glbd0e,Coronavirus updates: Obama criticizes US response again; tourist arrested in Hawaii; North Carolina churches ruling,
+science,t3_gl8nkd,"Soccer games &amp; record-breaking PM2.5 pollution events in Santiago, Chile -- Chilean fans’ fervour for grilling leads to pollution spikes when the national team plays -- the chemical make-up of the pollution matched that from grills but not that from other sources, such as traffic.",
+science,t3_gkwkub,Become a Better Parent by Spending Time with Your Co-parenting Partner: Study suggest that physical proximity of co-parenting partners leads to a better understanding of stimuli from the infant,
+science,t3_glaqc1,Scientists Figure Out Ways to Help Visually Impaired and Blind People to Trace Letter Outlines,
+science,t3_gky9rm,"The brain suppresses information from the outside world, such as the sound of a conversation, during the sleep phase linked to dreaming. This ability be one of the protective mechanisms of dreams",
+science,t3_gkmco1,Study identifies the host cell pathways modulated by SARS-CoV-2 infection and shows that inhibition of these pathways prevents viral replication in human cells suggesting possible development of therapy options for COVID-19,
+science,t3_gkrixi,"In Germany, growth of COVID-19 cases declined after a series of three social distancing interventions, detectable at a two-week delay following each intervention, but only after the third- a far-reaching contact ban -- did cases decline significantly.",
+science,t3_glb4ev,Technical Usability of Wikidata’s Linked Data,
+science,t3_gk67gr,"The anti-inflammatory drug hydroxychloroquine does not significantly reduce admission to intensive care or death in patients hospitalised with pneumonia due to covid-19, finds a study from France published by The BMJ today.",
+science,t3_glapjk,Glow in the ocean,
+science,t3_gk6y95,CoVID-19 did not come from the Wuhan Institute of Virology: A discussion about theories of origin with your friendly neighborhood virologist.,"Hello r/Science! My name is **James Duehr, PhD**, but you might also know me as u/\_Shibboleth\_.
+
+You may remember me from [**last week's post all about bats and their viruses**](https://www.reddit.com/r/science/comments/gehvui/why_do_viruses_often_come_from_bats_a_discussion/)! This week, it's all about origin stories. *Batman's parents. Spiderman's uncle. Heroes always seem to need a dead loved one...?*
+
+*But what about the villains?* **Where did CoVID-19 come from?** Check out [**this PDF**](https://drive.google.com/open?id=1kAHSEx9-eIyVIahczH8itHaUm9jI9WX7) for a much easier and more streamlined reading experience.
+
+# I'm here today to discuss some of the theories that have been circulating about the origins of CoVID-19. My focus will be on which theories are more plausible than others.
+
+\---
+
+**\[TL;DR\]: I am very confident that SARS-CoV-2 has no connection to the Wuhan Institute of Virology or any other laboratory. Not genetic engineering, not intentional evolution, not an accidental release. The most plausible scenario, by a landslide, is that SARS-CoV-2 jumped from a bat (or other species) into a human, in the wild.**
+
+[**Here's a PDF copy**](https://drive.google.com/open?id=1kAHSEx9-eIyVIahczH8itHaUm9jI9WX7) **of this post's content for easier reading/sharing.** *But don't worry, everything in that PDF is included below, either in this top post or in the subsequently linked comments.*
+
+\---
+
+A bit about me: **My background is in high risk biocontainment viruses, and my PhD was specifically focused on Ebola-, Hanta-, and Flavi-viruses.** If you're looking for some light reading, here's my dissertation: ([**PDF**](https://drive.google.com/file/d/168dmb0nOpqwL7Imil7OHLANQwwy_Hwo-/view?usp=sharing) | [**Metadata**](https://pqdtopen.proquest.com/doc/2273835368.html?FMT=ABS)). And here are the publications I've authored in scientific journals: ([**ORCID**](https://orcid.org/0000-0003-2077-6685) | [**GoogleScholar**](https://scholar.google.com/citations?user=8wCwbNUAAAAJ)). These days, I'm a medical student at the University of Pittsburgh, where I also research brain tumors and the viral vectors we could use to treat them.
+
+\---
+
+The main part of this post is going to consist of a **thorough, well-sourced, joke-filled,** and **Q&amp;A style** **run-down of all the reasons we can be pretty damn sure that SARS-CoV-2 emerged from zoonotic transmission.** More specifically, [the virus that causes CoVID-19](https://www.reddit.com/r/medicine/comments/g8mjmo/has_a_patientfamily_memberfriend_told_you_that/) likely crossed over into humans from bats, somewhere in rural Hubei province.
+
+**To put all the cards on the table, there are also a few disclaimers I need to say:**
+
+&gt;Firstly, **if this post looks long (** *and I’m sorry, it is* **), then** **please skip around on it.**  *It’s a Q &amp; A. Go to the questions you’ve actually asked yourself!*  
+&gt;  
+&gt;Secondly, **if you’re reading this &amp; thinking** *“I should post a comment* *telling Jim he’s a fool for believing he can change people’s minds!”* I would urge you: please **read this footnote first** ([**1**](https://drive.google.com/file/d/1vRbACWf90iBC35xNOwlI5bWcUq0nNzLc/view?usp=sharing)).  
+&gt;  
+&gt;Thirdly, **if you’re reading this and thinking** *“Does anyone really* *believe that?”*  **please read this footnote** ([**2**](https://drive.google.com/file/d/1vRbACWf90iBC35xNOwlI5bWcUq0nNzLc/view?usp=sharing)).  
+&gt;  
+&gt;Fourthly, **if you’re already preparing a comment like** *“You can’t be 100%* *sure of that! Liar!!”* … **Then you’re right!** I cannot be *100%* sure. **Please read this footnote** ([**3**](https://drive.google.com/file/d/1vRbACWf90iBC35xNOwlI5bWcUq0nNzLc/view?usp=sharing)).  
+&gt;  
+&gt;And finally, **if you’re reading this and thinking:** *”Get a load of this* *pro-China bot/troll,”*  then I have to tell you, it has never been more clear that we have never met. **I am no fan of the Chinese government!** Check out this relevant footnote ([**4**](https://drive.google.com/file/d/1vRbACWf90iBC35xNOwlI5bWcUq0nNzLc/view?usp=sharing)).
+
+\---
+
+# Table of Contents:
+
+* [**\[TL;DR\]:**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/) SARS-CoV-2 has no connection to the Wuhan Institute of Virology (WIV). **(Top post)**
+* [**Introduction:**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpa5du?utm_source=share&amp;utm_medium=web2x) Why this topic is so important, and the harms that these theories have caused.
+* [**\[Q1\]:**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpa9kn/) Okay, but before I read any further, Jim, why can I trust you?
+* [**\[Q2\]:**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpbagf/) Okay… So what proof do you actually have that the virus wasn’t cooked up in a lab?
+   * [**2.1)**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpbagf/) The virus itself, to the eye of any virologist, is clearly not engineered.
+   * [**2.2)**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpbt6o/) If someone had messed around with the genome, we would be able to detect it!
+   * [**2.3)**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpby1u/) If it were created in a lab, SARS-CoV-2 would have been engineered by an idiot.
+   * [**Addendum to Q2**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpbys1/)
+* [**\[Q3\]:**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpc7c8/) What if they made it using accelerated evolution? Or passaging the virus in animals?
+   * [**3.1)**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpc7c8/) SARS-CoV-2 could not have been made by passaging the virus in animals.
+   * [**3.2)**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpc9om/) SARS-CoV-2 could not have been made by passaging in cells in a petri dish.
+   * [**3.3)**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpcaz5/) If we increase the mutation rate, the virus doesn’t survive.
+* [**\[Q4\]:**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpccr1/) Okay, so what if it was released from a lab accidentally?
+   * [**4.1)**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpccr1/) Dr. Zhengli-Li Shi and WIV are very well respected in the world of biosecurity.
+   * [**4.2)**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpce2z/) Likewise, we would probably know if the WIV had SARS-CoV-2 inside its freezers.
+   * [**4.3)**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpcf33/) This doesn’t look anything like any laboratory accident we’ve ever seen before.
+   * [**4.4)**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpcfs2/) The best evidence we have points to SARS-CoV-2 originating outside Wuhan.
+* [**\[Q5\]:**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpcgy6/) Okay, tough guy. You seem awfully sure of yourself. What happened, then?
+* [**\[Q6\]:**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpci3n?utm_source=share&amp;utm_medium=web2x) Yknow, Jim, I still don’t believe you. Got anything else?
+* [**\[Q7\]:**](https://www.reddit.com/r/science/comments/gk6y95/covid19_did_not_come_from_the_wuhan_institute_of/fqpcivn?utm_source=share&amp;utm_medium=web2x) What are your other favorite write ups on this topic?
+* [**Footnotes &amp; References**](https://drive.google.com/file/d/1vRbACWf90iBC35xNOwlI5bWcUq0nNzLc/view?usp=sharing)**!**
+
+*Thank you to* u/firedrops, u/LordRollin, *&amp; David Sachs!* *This beast wouldn’t be* *complete without you.*
+
+***And a special thanks to the other PhDs and science-y types who agreed to help answer Qs today!***
+
+**REMINDER**\-----------------**All comments that do not do any of the following will be removed:**
+
+* Ask a legitimately interested question
+* State a claim with evidence from high quality sources
+* Contribute to the discourse in good faith while not violating sidebar rules"
+science,t3_gkyq75,Female toads breed with a different species when it helps their tadpoles survive,
+science,t3_gl5zze,"Recent research links worry and rumination with poorer sleep in non-clinical populations, including taking longer to get to sleep, having less total sleep time and having a poorer sleep quality. This consistent association may also partially explain the link between worry/rumination and ill health.",
+science,t3_gkspda,Voluntary collective isolation is best response to COVID-19 for indigenous populations. Chapman University-Led study shows researchers collaborating with tribal leadership and government to develop and implement a COVID-19 prevention plan.,
+science,t3_gl1mje,Researchers working with an international team of scientists have discovered a previously unknown mechanism that allows atmospheric particles to very rapidly form under certain conditions. The research could aid efforts to model climate change and reduce particle pollution in cities.,
+science,t3_gkp8tr,"Global cooling event 4,200 years ago spurred rice's evolution, spread across Asia",
+science,t3_gkpxkc,New research indicates that surface water and habitable conditions might have persisted on Venus’s surface for several billion years (Ga) before simultaneous volcanic eruptions of large igneous provinces (LIP) over the past few hundred million years led to the planet’s current hothouse state.,
+science,t3_gkqi4y,Caltech: New Ultrafast Camera Takes 70 Trillion Pictures Per Second,
+science,t3_gkd0vg,"The taste for meat in Venus flytraps was facilitated by a whole-genome duplication which ""freed up"" genes used in roots, leaves, and sensory systems, enabling them to diverge, repurposing and evolving traits important for detecting and digesting prey.",
+science,t3_gkrk9a,"A newly released study projects that nearly 400,000 elective surgeries across Canada will have been cancelled or delayed across the country by mid-June due to the COVID-19 pandemic, creating a backlog that could take more than a year to clear.",
+science,t3_gkobw5,Long-dormant volcano Mauna Kea has been quietly grumbling for decades,
+science,t3_gjw0fm,Blind people could 'see' letters that scientists drew on their brains with electricity,
+science,t3_gkb2z1,Use of Virtual Reality to Train People to be more Empathetic: Study findings suggest the use of VR-technology to remodel brain functioning to make people more conscientious of other's suffering,
+science,t3_gjphmi,Kidney injury seen in more than a third of hospitalized COVID-19 patients: U.S. study,
+science,t3_gkmh8p,Physicists Just Built The First Working Prototype Of A 'Quantum Radar,
+science,t3_gkanao,"Study finds the earlier kids or teens start smoking, the less likely they are to quit smoking as adults.",
+science,t3_gkmmlc,High-energy long-cycling all-solid-state lithium metal batteries enabled by silver–carbon composite anodes,
+science,t3_gkonjc,"Scientists from the CNRS and the ENS-PSL in France (1) and Monash University in Australia have shown that the brain suppresses information from the outside world, such as the sound of a conversation, during the sleep phase linked to dreaming",
+science,t3_gkfhyu,"Global Cooling Event 4,200 Years Ago Spurred Rice’s Evolution, Spread Across Asia",
+science,t3_gk3y3y,"Vaccine opponents are gaining in Facebook ‘battle for hearts and minds,’ new map shows",
+science,t3_gkm65j,"Inconsistent sexual signaling degrades optimal mating decisions in animals: Cope's gray treefrog females prefer males with faster call rates, but inconsistent call rates and noisy environments can allow males with unattractive calls to mate in spite of female preferences",
+science,t3_gkfo50,"Planet’s largest volcano is a shield volcano — a broad dome that rises about 4500 meters from the sea floor from a single source of molten rock, new research reveals.",
+science,t3_gkjdxo,The Brain Link Events To Form A Memory.,
+science,t3_gkg1v5,"In a step forward for orbitronics, scientists break the link between a quantum material's spin and orbital states",
+science,t3_gkosvc,Structure of the RNA-dependent RNA polymerase from COVID-19 virus,
+science,t3_gkdhe8,Blood clotting abnormalities reveal COVID-19 patients at risk for thrombotic events,
+science,t3_gkl93i,"Funky new parasitic fungus species named after Twitter, where it was first discovered",
+science,t3_gkfyrj,"Moths play vital nighttime role in pollinating flowers and plants, new research suggests",
+science,t3_gkffje,Vegetation changes can outweigh climate change in rangeland water budgets. Shrub encroachment on grasslands can increase groundwater recharge.,
+science,t3_gjhr9i,"Minimum legal age for cannabis use should be 19, study suggests. A team of researchers investigated how Canadians who started using cannabis at several young ages differed across important outcomes (educational attainment, cigarette smoking, self-reported general and mental health) in later-life.",
+science,t3_gjufpl,"Both men and women erroneously expect their heterosexual partners to share their intuition about sex robots. Men expect women to be cool with them getting one, while women expect men to dislike them having one. Both are wrong",
+science,t3_gkjglw,"Early Exposure to Cannabis Boosts Young Brains’ Sensitivity to Cocaine, Rodent Study Suggests",
+science,t3_gkfvg7,Neurostimulation Devices Market: AI and Machine Learning Steer Innovation in Smart Neuromodulation for Brain Damage Patients,
+science,t3_gkdv83,High Salt Intake Augments Blood Pressure Responses During Submaximal Aerobic Exercise,
+science,t3_gkf9oc,"Ozone layer deal may have led to new contaminant problem, researchers say",
+science,t3_gjxgcs,COVID-19′s silent spread: How symptomless transmission helps pathogens thrive,
+science,t3_gkg0sw,New species of fungus named after Twitter because that's where scientists first discovered it.,
+science,t3_gk0t5w,"Genomic analyses finds that pangolin-CoV-2020 has a high identity with both SARS-CoV-2 and Bat-CoV-RaTG13,the proposed origin of SARS-CoV-2 suggesting that pangolins are natural hosts of Betacoronaviruses",
+science,t3_gkozyd,Tumors from brain cancer patients predicts life expectancy,
+science,t3_gkcna8,Astronomers Just Found Another Key Way TRAPPIST-1 Resembles The Solar System,
+science,t3_gkdsiv,"Research from NASA's new Ice Cloud and land Elevation Satellite-2 (ICESat-2) suggest that Artic sea ice has thinned by as much as 20% , contrary to existing studies that find sea ice thickness has remained relatively constant in the last decade",
+science,t3_gketiv,Very regular high-frequency pulsation modes in young intermediate-mass stars,
+science,t3_gjsqhg,"20 years of seismic data reveal that small earthquakes occur every 7 to 12 minutes beneath Hawaii's Mauna Kea volcano. The finding suggests that deep, low-frequency quakes signal cooling magma instead of predicting future eruptions.",
+science,t3_gjn9nq,"A study in Nature reports 2 infected dogs out of 15 households with confirmed cases of COVID19. Genetic sequences of the viruses from the dogs were identical to the virus detected in the human cases, suggesting human-to-animal transmission of SARS-CoV-2.",
+science,t3_gk7esi,A team of scientists have worked to develop a metabolic signature as a biological measure to evaluate adherence and metabolic response to a Mediterranean diet. The signature can also predict cardiovascular disease risk.,
+science,t3_gkcrxh,Mice with patchy coats lay bare how stem cells endure,
+science,t3_gkdl9y,UHN-U of T-led study shows antiviral drug can speed up recovery of COVID-19 patient,
+science,t3_gkdls2,Scientists break the link between a quantum material's spin and orbital states,
+science,t3_gjdhc3,"A rare, Kawasaki-like disease is striking kids who have coronavirus antibodies, a Lancet study from Italy shows.",
+science,t3_gkcy7v,"In the simple reaction H + HD → H2 + D, researcher have discovered a new kind of quantum interference",
+science,t3_gke8r0,Viral infection: Early indicators of vaccine efficacy,
+science,t3_gj708a,Scientists have yielded evidence that medival longbow arrows created similar wounds to modern-day gunshot wounds and were capable of penetrating through long bones. Arrows may have been deliberately “fletched” to spin clockwise as they hit their victims.,
+science,t3_gk6bok,Study finds differentially expressed microRNA profiles in exosomes from vascular smooth muscle cells associated with coronary artery calcification were significantly altered,
+science,t3_gk36dv,Scientists genetically modified a mouse to be 4 percent human,
+science,t3_gkd08s,Astronomers Just Found Another Key Way TRAPPIST-1 Resembles The Solar System,
+science,t3_gkbczu,Newly discovered 'glitter worms' dance and fight one another underwater,
+science,t3_gjx8xm,COVID-19: First bowel imaging study implicates blood clots,
+science,t3_gkexyy,The French 2004 headscarf ban led to less socioeconomic integration of Muslim women in France.,
+science,t3_gj5tbe,Speech droplets generated by asymptomatic carriers Covid-19 are increasingly considered to be a likely mode of disease transmission.,
+science,t3_gjtpfd,Ancient Footprints in Africa Just Delivered Unique Insights Into Early Human Behaviour,
+science,t3_gj2h83,An analysis of millions of Facebook pages during the 2019 measles outbreak revealed that anti-vaccination groups are better positioned to access undecided people than public health authorities are. Researchers worry similar factors could sew distrust of science during the coronavirus pandemic.,
+science,t3_gk0ne4,Case-Population study finds use of renin–angiotensin–aldosterone system inhibitors do not increase the risk of COVID-19 requiring admission to hospital,
+science,t3_gk47o0,Genome editing of plants can help reshape global agriculture through the targeted engineering of endogenous pathways or the introduction of new traits.,
+science,t3_gj2wg3,"New study finds that about 90% of gamers aren't actually addicted to video games. Results show that there is still a significant minority, though, who can become addicted and suffer mentally, socially and behaviorally.",
+science,t3_gjrlqg,"Scientists have collaborated and proposed a novel two-dimensional design that can be constructed using existing integrated circuit technology. This design solves typical problems facing the current three-dimensional packaging for scaled-up quantum computers, bringing the future one step closer.",
+science,t3_gjkk16,Scientists Have Discovered Huge Sabre-Tooth Anchovies From Prehistoric Times,
+science,t3_gk88f8,MALT1 protease activity as a new pharmacological target against psoriasis demonstrated in a mouse model (keratinocyte-specific inducible expression of a psoriasis-associated mutant gene).,
+science,t3_gjj69k,Transmission of SARS-CoV-2 in Domestic Cats: SARS-CoV-2 was detected in three cats after they were cohoused with cats that had been experimentally inoculated with the virus. Cats may be a silent intermediate host of SARS-CoV-2.,
+science,t3_gjo6am,"From Black Death to fatal flu, past pandemics show why people on the margins suffer most",
+science,t3_gk0k23,Study confirms pathogenicity of SARS-CoV-2 in hACE2 transgenic mice,
+science,t3_givyle,"Moths have 'secret role' as crucial pollinators: Long seen as annoying creatures that can leave holes in your clothes, moths have been badly misjudged, say scientists. New research suggests they play a vital role as overnight pollinators of a wide range of flowers and plants.",
+science,t3_gk352c,p53 is regulated by aerobic glycolysis in cancer cells by the CtBP family of NADH-dependent transcriptional regulators | Science Signaling,
+science,t3_gk3506,"NASA’s ICESat-2 Measures Arctic Ocean’s Sea Ice Thickness, Snow Cover",
+science,t3_gjtew5,Amazon road projects could lead to Belize-size loss of forest. Scientists studying the impact of 75 road projects in five countries in the Amazon Basin have found that they could lead to 2.4 million hectares (5.9 million acres) of deforestation.,
+science,t3_gjk8xt,"A new study suggests that as the world gets hotter, wolf spiders in Alaska might be beginning to eat each other, which could end up having a limiting effect on the size of their populations",
+science,t3_gk3gu9,"Over 28 million elective surgeries across the globe could be cancelled as a result of the COVID-19 pandemic – leading to patients facing a lengthy wait for their health issues to be resolved, a new study reveals.",
+science,t3_gjj7go,"Scientists Have Discovered 45,000-Year-Old Human Remains in a Bulgarian Cave: A tooth and six bone fragments are the oldest confirmed Homo sapiens fossils in Europe.",
+science,t3_gjg4y8,"GRL0617 a potential dual action drug for SARS-CoV-2, we have found a possible breakthrough chemical that can be a potential drug for SARS-CoV-2, we have published our findings here with some sound theoretical chemistry work in New Journal of Chemistry, a journal of the Royal Society of Chemistry",
+science,t3_gk360q,The death-inducing activity of RIPK1 is regulated by the pH environment | Science Signaling,
+science,t3_gjxc4j,Cellular Cargo Delivery: Toward Assisted Fertilization by Sperm-Carrying Micromotors,
+science,t3_gjlfwo,"Ötzi the Iceman’s final days (this is kind of an old story) Europes oldest, still preserved mummy",
+nature,t3_gl2z0q,National park closings gave wildlife room to roam. Rangers advise caution amid reopenings.,
+nature,t3_gl9yfa,Toronto Zoo's Arctic Wolf Pups Emerge From Their Den,
+nature,t3_gkvmyn,Can video games make people care about wildlife conservation? Creating a unique augmented reality Wildlife game: Wildeverse,
+nature,t3_gl05lq,Meet the güiña—a six-pound 'mystery cat' vulnerable to extinction,
+nature,t3_gla1mt,"Just some thoughts I've been having on the nature of nature, and the human distance from it. It probably looks like I'm trying too hard to be deep, but please be nice, it's my first post :3","  
+
+As humans we see what is above ground, and only from a very particular perspective.
+
+Most of us fail to notice the affection between animals.
+
+We may notice it in our pets, but compartmentalise those behaviours to them. I believe most humans don’t consider the personalities of each rainbow lorikeet in a flock. We see them so quirky and full of life and love in our homes, but to imagine that each wild one has its’ own personality and love for each other, that the flock is truly a family group who cares about each other, seems to go unthought of by most people.
+
+We see pigs be so loyal and sweet, and don’t think that the ones stuck in sow stalls, unable to move, unable to interact, have that exact same potential. We endorse the industries which year after year, now generation after generation, torture mass numbers of animals capable of love, compassion and empathy. We compartmentalise the ones that we see acting a way we admire, the ones that act like dogs. We are used to dogs being our best friends, we would never dream of hurting them. We despise cultures who torture and eat dogs. It is unthinkable to us. And here we are, almost all of us, blindly eating bacon that came from a tortured soul. One who never had the opportunity to feel love or joy. Who was brought in to the world to feel nothing but pain and distance, to then be slaughtered and consumed by a species who has lost touch with empathy stretching beyond the people of our closest circles. 
+
+To walk through a forest, we miss the extraordinary life beneath our feet. We see the beautiful trees above ground, but I now suspect that the most breath taking realities are the ones we have overlooked. 
+
+The trees, bacteria and fungus beneath us create a web. The connections of the mycelium stretch to the edge of each continent, or at least it did.
+
+These vast expanses of connections, is it possible that a consciousness was born as a biproduct? Is it possible that mother nature is truly an intelligent organism? Human intelligence was selected for by the outcomes it produced, but could it not happen differently? A vast array of fungus, plants and bacteria, successful for simply staying alive, which spreads its tendrils and connects everything, just by chance creating a network not so different from a brain.
+
+A brain which has lasted for hundreds of millions of years. One which maybe cannot influence the happenings of events above ground, but one that is in some way aware. It does not see, but does it smell? And feel? Does it do something similar to hearing? What is the experience like of such a different being? Is there some form of pheromone language which it processes thoughts in? Can it experience Pain? Anguish? Love?
+
+Is there a way to investigate this? A way to monitor the mycelium for patterns like thoughts? Could we recognise them, and if we did, would it make any difference at all?
+
+I hope beyond hope, that life lives elsewhere. Life that supports each other and does not destroy itself. Humans are truly the plague of this planet. The greedy always rise to the top. We see it in business and politics. Those who are willing to backstab and scramble will naturally be the ones who push everyone else out of the way. The liars, the selfish, the unempathetic. 
+
+But I have never thought to look at that pattern on a species level. 
+
+Humans as a collective, have lost touch with nature. We don’t consider it to be a part of us. We don’t consider it to be worth as much as us. The idea of giving up our obscene comforts to benefit nature is to ask too much. We have believed ourselves to be greater than the other branches of life, and we are killing the tree.
+
+Will we wipe ourselves out? Will we survive long enough to wipe out nature entirely?
+
+In this moment, I do hope we have doomed ourselves. I hope the damage we have done cannot be repaired. If humans die, nature will recover. It has time after time, it may take a long time, but she will return. But if we survive the coming chaos of climate change, to continue with our infrastructure and “advancement”, we will continue to push her down and down and down. Will we one day leave the planet and let her recover? I cannot imagine her future, and I am filled with so much sadness for this.
+
+I dream of a world that we cannot create. 
+
+One where people redefine what matters, and recognises our animal cousins as family who experience love and friendship. I wish for a future that humans reinvigorate mother nature. We allow our forests to return, and we stop trying to put ourselves above all else.
+
+I imagine a future, or maybe just another world, where such inquisitive thought is directed to understand life. To understand our planet, our trees, our mycelium. Maybe to communicate between species, even between kingdoms. Does an intelligent species have to be set apart? Can we not continue to be humble and loving of everything around us?
+
+I don’t believe humans are capable of this, so I guess I dream of a world without us."
+nature,t3_gkmmgr,"Moths play a vital role in pollinating flowers and plants, new research suggests",
+nature,t3_gl6ou0,4K Nature Walk | Immersive 30 Minute Virtual Hike in the Woods | ASMR Sounds for Sleep &amp; Relaxation,"A half hour walk in the Florida forest filmed in 4K. Enjoy the ambient ASMR nature sounds of birds and other wildlife along with leaves crunching beneath our feet. The canopy of oaks, longleaf pines and mediterranean fan palms tower over us as we hike in the forest. We hope to bring the serenity of nature to you while you're at home. 
+
+[https://youtu.be/QV2Fv9J3D8c](https://youtu.be/QV2Fv9J3D8c)"
+nature,t3_gkhm1c,"A Good Read, Biodiversity is important for protecting wildlife isn’t just good for animals — it’s essential for human survival.",
+nature,t3_gl04jv,Bird dead after placed back into nest,"I like in England and we’ve got a bird nest in our roof, one of the baby birds fell out it had feathers but clearly wasn’t ready to fly, my dog picked it up in it’s mouth but we got them to drop it. We put the bird back in the nest but a few minutes later the bird was pecked to death by it’s parent. Why? I feel responsible cause I told my parents to put it back in it’s nest and now they are blaming me."
+nature,t3_gkprld,Carrots airdropped to wallabies caught in bushfires,
+nature,t3_gk2g1z,Canada zoo to return pandas to China because bamboo too hard to get during pandemic,
+nature,t3_gkegxo,Barred owl cam,
+nature,t3_gkhx5g,Botanic Gardens’ Wildflower Explorations goes online,
+nature,t3_gknhp1,A Tale of Two States,
+nature,t3_gk9fr5,Barn Owl Babies Can Be Helpful Hatchmates,
+nature,t3_gjkzmt,Snakes Have Friends Too: A new study is the latest in a growing body of evidence that animals form tight bonds.,
+nature,t3_gjsisi,Scientists discover why some birds live fast and die young,
+nature,t3_gjvmn4,"This is amazing news! Yes, prevention beats cure but still, we didn't do enough prevention so we need some cure. It might create nice off-season jobs in tourist areas as ""coral carers""",
+nature,t3_gjngd3,Research reveals the extent of grey seals' maternal sacrifice,
+nature,t3_gjkss7,How the world's most dangerous bird got its unique feathers,
+nature,t3_gjgbpd,Here’s How to (Safely) Bird-Watch During Lockdown,
+nature,t3_gizeyc,"How planting a garden can boost bees, local food and resilience during the coronavirus crisis",
+nature,t3_gitfi6,Gigantic new locust swarms hit East Africa,
+nature,t3_gj2psz,Antarctica vs. Science,
+nature,t3_giauou,"Robot ""Spy"" Gorilla Records Wild Gorillas Farting And Singing For The First Time",
+nature,t3_gieuhz,You're not going far from home—and neither are the animals you spy out your window,
+nature,t3_gia3kx,How to make peace with the world's deadliest bears,
+nature,t3_giio99,80 per cent of Canada’s climate safe havens lack protection. Here’s a roadmap to fix that,
+nature,t3_ghsf24,Rhino killed as poaching attempts increase amid India virus lockdown,
+nature,t3_gihr43,DNA surprises surfacing in the Atlantic: Species far from their usual southern homes,
+nature,t3_ghi091,Brazilian Amazon deforestation hits new Jan-Apr high,
+nature,t3_ghyvch,3 ways to connect with nature even when you're stuck inside,
+nature,t3_ghuco1,The coronavirus was not engineered in a lab. Here's how we know.,
+nature,t3_ghxihz,"""Snow in Central Park! In May!"": Rare snowfall ties 1977 record",
+nature,t3_ghkd7m,Fighting boredom with banjos and Russian grammar – tips from polar explorers for surviving months of isolation,
+nature,t3_gho42g,Hi! I created a non-profit that connects individuals with environmental initiatives for online volunteering projects. I am wondering if any of you want help or want to help others!,"Hi /r/nature,
+
+Want to create a meaningful positive impact on our planet, even though you have a full workweek, university, or other responsibilities? The last few months I worked on www.workjointly.org, here you can find volunteering projects submitted by environmental non-profit initiatives from all over the globe. Current projects include marketing for a sustainable clothing initiative in Germany, assisting an Indonesian NGO with fundraising, or multiple IT related projects.
+
+Jointly is not the first initiative that promotes online volunteering, but it differs a lot from other platforms. But, contrary to others Jointly has a complete focus on environmental projects. To make it accessible for everyone, Jointly is free for all parties involved and initiatives do not require to submit official documents or certificates to prove their well-doing. This makes the platform accessible for grassroots groups or initiatives from developing countries. To ensure the validity of the submitted projects, Jointly reviews every initiative manually.
+
+Do you have an environmental non-profit initiative that could use some help? Let me know or submit a project on the website!
+
+Feedback on all this is more than welcome.
+
+Have a great day! :)"
+nature,t3_ggzyuz,Does city life make animals smarter?,
+nature,t3_gh40yd,Nine of the most breathtaking mountain hikes in the UK,
+nature,t3_ggjvx3,Five things to spot on your daily exercise,
+nature,t3_gft427,"Pakistan hired 63,000 people, unemployed by COVID-19, to help plant 10 billion trees",
+nature,t3_gfsisk,Birds that Carry Lit Candles &amp; The Importance of Avian Innovation: New study published on behavioral plasticity – the ability to think creatively and adapt to one’s environment – may actually help prevent extinctions among some birds.,
+nature,t3_gg32qx,"From Bulgaria to Ukraine back to Bulgaria and Ukraine again in 30 days and 6,405 km — the travels of Cinereous Vulture Silven",
+nature,t3_gg47eg,Madagascar: A Cornucopia of Beauty,
+nature,t3_gftsc7,Beautiful moments between animal mothers and their babies,
+nature,t3_gfqazp,The Amazon’s ‘Ghost Dogs’ Face 30 Percent Habitat Loss,
+nature,t3_gfifxb,'Promiscuous treatment of nature' will lead to more pandemics – scientists | Environment,
+nature,t3_gf8nqo,Life with Waste Warriors and a Neverending Battle against Plastic Pollution,
+nature,t3_gfa604,New Asian Flyways Initiative to conserve wetlands for people and migratory birds,
+nature,t3_gezne6,Stopping Deforestation Can Prevent Pandemics,
+nature,t3_gffox1,Bird keeps tapping my window,"I did not know where to post this, so if this is a wrong subreddit I'm sorry. I live in Arizona and this bird will not stop tapping my window, and our new car window. It begins at my window around 5 a.m and goes on for the rest of the day. I was thinking about shooting it with an airsoft rifle, but wanted to try a more humane approach. Sorry that the video is very blurry, but we believe it's a Towhee or a House Sparrow. Audio is attached.
+
+https://streamable.com/00oc7g
+
+It's much louder than in the video lol.
+
+It has gotten more extreme weeks after I recorded the video. After some research, I found that it is probably hitting it's reflection, and we have out CD's, Cardboard, a picture of a hawk, a stuffed animal, nothing. Can anyone please give me a humane way to make it go away.  I do not appreciate being woke up by hard pecking at 5 am each and everyday. He has already cracked my window and broken through the screen we have over it.
+
+ Thanks and God Bless!"
+nature,t3_gelfmt,"Brazil using coronavirus to cover up assaults on Amazon, warn activists Fears for indigenous tribes as Jair Bolsonaro’s ‘land grabbers decree’ may be pushed forwards",
+nature,t3_gf5tru,Who's set to win when U.K. leaves EU? Wild ponies,
+nature,t3_geklem,Rising ocean temperatures threaten seagrass meadows and their ability to hold carbon,
+nature,t3_geee7g,Scientists warn worse pandemics are on the way if we don’t protect nature,
+nature,t3_gexsax,Does the documentary planet of the humans discuss the possibility of global warming being a potentially cataclysmic event?,
+nature,t3_ge6l5e,"Thousands of Flamingos Flock to Mumbai Amid Lockdown, Creating a Dazzling Sea of Pink",
+nature,t3_ge2toy,Thousands of captive tigers in U.S are at risk of COVID-19,
+nature,t3_gdnlyk,Amazon land activist shot dead in Brazil,
+nature,t3_gecbny,If you needed another reason not to leave food around. Bears eating human food shorten their hibernation and speed up aging,
+nature,t3_gedf0s,Climate change could cause decline of some alpine butterfly species,
+nature,t3_geanx0,"Whether you forge a new trail or follow these tips, a hike can help heal our collective spirit",
+nature,t3_gdj5ly,Interview 'The parallels between coronavirus and climate crisis are obvious',
+nature,t3_gd8mcx,"Indian officials capture rare snow leopard, send it to zoo",
+nature,t3_gdgtec,Predators help prey adapt to an uncertain future,
+nature,t3_gdj30g,"To the lady who grabbed the great white, this is how to respectfully observe marine life and sharks",
+nature,t3_gdcy5g,Invasive giant hornets have been spotted in the US for the first time,
+nature,t3_gdr76a,Why are there a bunch of feathers by a fracolins nest by our garden?,"A gray francolin made a nest in our garden and it's been there for over 2 weeks already.  Yesterday we looked and the bird was gone, there were a bunch of it's feathers around where the nest was, it's been almost 2 days and the bird isn't back.  Also, when we saw it was gone, one of the eggs were around the nest like something was grabbing it.  Did the bird abandon the nest? Or did get attacked by something?"
+nature,t3_gdqybr,So does anyone know around what time of the day dew drops/forms on grasses ¿¿,
+nature,t3_gdqbuc,Asian murder hornets in the US,"I just saw the news about the killer hornets arriving in the US. As if the virus wasn't enough. Please don't sugar coat it, how bad is this situation now and how bad will it get? Because I know these bugs are killers to humans and honeybees that are important to our food chain."
+nature,t3_gczky4,First brown bear for 150 years seen in national park in northern Spain Images captured on cameras being used for film shoot in thinly populated area of Galicia,
+nature,t3_gdgglr,Live stream nature cams via Google Earth,"Hi all, 
+
+you may already be aware but just in case I thought I would share this as it's quite interesting! via the Google Earth app under the ""voyager"" section you access free live cams for various species, including Eagles, Ospreys, owls and more. There are also live Africa cams and Bear cams (I believe Bears are off season at the mo) 
+
+I only discovered it the other day so thought it would be worth mentioning as it's cool to watch if this sort if thing interests you!"
+nature,t3_gcr1pa,Remote cameras are revealing the human impact on rainforest species in Africa,
+nature,t3_gdb1di,Did some research on forecasting weather without technology -- thought I would share it!,
+nature,t3_gcrswc,"Commercial whaling may be over in Iceland: Citing the pandemic, whale watching, and a lack of exports, one of the three largest whaling countries may be calling it quits.",
+nature,t3_gcose6,Has anyone noticed a greater presence of birds and/or bees?,"In New England. I used to wake up at 3 a.m. for work before the pandemic. Before I'd leave the house, I'd hear the birds start singing about an hour before sunrise. This spring, I've been waking up at 3 a.m. with no worky, and the birds are already awake and singing. I've also noticed a lot more bees working our yard in a fairly developed neighborhood. Anyone else with similar findings or reasons as to why?"
+nature,t3_gckebl,Can nature help us improve our mood in lockdown?,
+nature,t3_gcqf13,Theres a birds nest with baby birds in the nest in my attic,Basically one of the tiles is gone from the roof and the nest is basically kinda in that spot and if I dont remove the nest rain wind will get through and can damage the roof so how do I remove the nest without letting them die cause there mother wont be able to find them and they cant survive themselves
+nature,t3_gcwy40,Help!,"I have a baby bunny in my backyard and I need to know what to do. We live in an area with a lot of hawks and dogs and the baby is so small. If he’s not there in like three hours or so, what do I do?"
+nature,t3_gcte28,Outdoors Sweden – Encouraging Activities To Stay Healthy,"Hiking is one of the most enjoyable activities you can take part in outdoors.  It enables you to take in the splendor of your nature and natural environment, embody nature, and keep fit while you're in nature. Before you start a long hike, it is necessary to train, prepare and and have access to the essential gear. https://article-directory.org/article/781/19/Outdoors-Sweden-%E2%80%93-Encouraging-Activities-To-Stay-Healthy"
+nature,t3_gco75a,British wildlife in May,
+nature,t3_gc16es,Japanese aquarium urges public to video-chat eels who are forgetting humans exist,
+nature,t3_gbh931,Want to help birds and insects? New study suggests ponds are extremely beneficial for multiple species.,
+nature,t3_gbz9ui,‘A Bomb in the Center of the Climate Movement’: Michael Moore Damages Our Most Important Goal,
+nature,t3_gb56fz,Iceland Ends Its Minke Whale Hunt,
+nature,t3_gbtrql,Rapid of river Vantaa,
+nature,t3_gbmt20,Does anyone know the best states to live in that have homes that are pretty remote and covered by a couple miles of forest? (USA),"I've always been fascinated by nature and want to live in its glory.. It's always been my dream to live far out in the woods with my future boyfriend, have a giant forest in our backyard, and just overall be deep into the woods? Which state do you guys think is the best for this? I've been thinking Maine, or California."
+nature,t3_gaw9rp,Thousands of miles of planned Asian roads threaten the heart of tiger habitat,
+nature,t3_gbhi0i,Baby Birds keep falling out of bird box,"Hello Everyone,
+
+Sorry if this isn’t in the right sub if it’s not could you point me to one more suitable.
+
+We have a bird box in our garden and twice now we have noticed baby birds dead on the ground below. Presumably they have fallen out but I was wondering if there was anything specifically that may have caused this and if anyone knows why?
+
+My dad says they are house sparrows if that helps
+
+Thanks"
+nature,t3_gb1x9s,Very clean air in Prague. We can see mountains!,
+nature,t3_gaw8l5,Spinosaurus fossil shreds history of swimming dinos,
+nature,t3_gb31tr,Question about hanging a screech owl nesting box?,"I was gifted a screech owl nesting box from my mother, and I'm not sure if hanging it in my yard would be a good idea. I do live next to an open field, so it would be an ideal habitat for the owls, but I've got three house cats and I've read that the screech owls can become quite territorial during nesting season. 
+
+Would it be a bad idea to mount the box in my yard, where my cats roam freely? They don't climb trees so I'm not worried about them bothering the owlets, but I AM worried about the owl attacking my cats."
+nature,t3_gaev32,Wild cities: how can we make space for nature in urban areas?,
+nature,t3_gasta9,"Microplastics disrupt hermit crabs' ability to choose shell, study suggests | Environment",
+nature,t3_ga7ijo,Study reveals important flowering plants for city-dwelling honey bees,
+nature,t3_ga3r14,How the Stunning Scarlet Macaw Came Back From the Brink,
+nature,t3_gae2uo,White-faced capuchin monkeys come down from the trees on Panama's Coiba Island,
+nature,t3_g9rg3y,Invasive lionfish likely to become permanent residents in the Mediterranean,
+nature,t3_ga169c,How to move tadpoles,"At my local park, there is a quick drying up pool with hundreds of tadpoles inside. I want to move them so they survive but I want to do it right. There is a small swamp right next to their home, would that be a suitable place to move them too?"
+nature,t3_g9mpmx,Concept - Finding the motivation to go outside into nature via a herb collection story," 
+
+I love collecting herbs in the wild, its like finding treasures! And thus its motivating me to go outside in the first place, which can sometimes be a challenge tbh xD
+
+And now since I have to do a project about plants in uni for my design class I decided to make it a ""Herb Collecting in the Wild"" thingy in context of a semi fantasy story. You might not be able to imagine the technology well, its not important anyway, I just want to know more about how I could make it cool for others, i dont just want to cook my own little dandelion soup :D
+
+So imagine you are walking through the woods, as a young apprentice of a deceased herbs master, with his book in tow and his voice, trapped in the pages, guiding you through the forest. The little village you come from has recently seen some mysterious events and through the discovery of the herbs, you can slowly unwrap what has happened. You move through the story be scanning certain checkpoints in the area, your phone then shows you the plant that typically grows in this place and where you might find it.
+
+Now many of you might know their herbs anyway, but do you think, for someone who doesnt know anything yet, this would be a nice little motivation for them to go outside and have a look? Or do you find it kinda boring. Thats fine, I wanna make it as interesting as possible!
+
+Share any ideas and thoughts that you have if you want to :)
+
+(This is not me asking you to do my project for me, I am just trying to get a feel for people that might use this app :) Also, I am sorry, if this post may not be welcome in this subreddit, you may delete the post or suggest another subreddit, thank you kindly!)"
+nature,t3_g9tb84,A survey about Snakes for my university project on raising awareness.,"Hi all I’m not sure if I’m allowed to post this here so remove it if I can’t, however, if you have the time I was wondering if anyone could fill out the following survey. It’s about snakes and adder snakes and will be used to inform my designs for a university project I’m doing. It’s completely anonymous but I’d really appreciate it, also any feedback left below will be greatly appreciated and it means a lot.
+
+
+https://docs.google.com/forms/d/e/1FAIpQLSdnGU5epRu--HI8VtTOjJU9ttirPUvaPteAgNjSmPJ7ax0e7Q/viewform?usp=sf_link"
